@@ -241,12 +241,13 @@ fun preProcessTextThai(input: String): String {
         val last = buffer.last()
         if (isToneMark(last)) {
             /* Decompose and reorder. */
-            buffer[buffer.length - 1] = (0x0E4D).toChar()
+            buffer[buffer.length - 1] = 0x0E4D.toChar()
             buffer.append(last)
             buffer.append(0x0E32.toChar())
         }
         else {
-            buffer.append(c)
+            buffer.append(0x0E4D.toChar())
+            buffer.append(0x0E32.toChar())
         }
     }
 
