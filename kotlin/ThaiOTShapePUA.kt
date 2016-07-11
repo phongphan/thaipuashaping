@@ -3,6 +3,9 @@
  *
  * Translated from: https://github.com/behdad/harfbuzz/blob/master/src/hb-ot-shape-complex-thai.cc
  * License: MIT
+ *
+ * Example usage:
+ *   doThaiShaping(preProcessTextThai("พ่อผู้ใหญ่ช่างใจป้ำจริงๆ ไก่จิกเด็กตายบนปากโอ่ง"))
  */
 
 private enum class ThaiConsonentType {
