@@ -70,10 +70,10 @@ private fun thaiPuaShape(codepoint: Int, action: ThaiActionType): Int {
             Pair(ThaiActionType.SDL,
                     mapOf(
                             Pair(0x0E48, 0xF705), // MAI EK
-                            Pair(0x0E49, 0xF705), /* MAI THO */
-                            Pair(0x0E4A, 0xF705), /* MAI TRI */
-                            Pair(0x0E4B, 0xF705), /* MAI CHATTAWA */
-                            Pair(0x0E4C, 0xF705)  /* THANTHAKHAT */
+                            Pair(0x0E49, 0xF706), /* MAI THO */
+                            Pair(0x0E4A, 0xF707), /* MAI TRI */
+                            Pair(0x0E4B, 0xF708), /* MAI CHATTAWA */
+                            Pair(0x0E4C, 0xF709)  /* THANTHAKHAT */
                     )),
             Pair(ThaiActionType.SL,
                     mapOf(
